@@ -906,15 +906,15 @@ export default function GorishankerPortfolio() {
               <div className="section-label" style={{ textAlign: "center", marginBottom: 24 }}>// reach me on</div>
               <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
 
-                <div className="contact-row" onClick={copyEmail} role="button">
-                  <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+                <a href="mailto:gorishanker.devloper@gmail.com" className="contact-row">
+                  <div style={{ display: "flex", alignItems: "center", gap: 16 }} onClick={copyEmail}>
                     <span className="mono" style={{ color: "#00C9A7", fontSize: "0.9rem", width: 20 }}>@</span>
                     <span className="sg" style={{ fontSize: "0.875rem" }}>gorishanker.devloper@gmail.com</span>
                   </div>
                   <span className="mono" style={{ fontSize: "0.68rem", color: copied ? "#00C9A7" : "#3A4550", letterSpacing: "0.08em", textTransform: "uppercase" }}>
                     {copied ? "copied ✓" : "copy"}
                   </span>
-                </div>
+                </a>
 
                 <a href="tel:+917689864686" className="contact-row">
                   <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
