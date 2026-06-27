@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://gorishanker.vercel.app/sitemap.xml
+Disallow:
